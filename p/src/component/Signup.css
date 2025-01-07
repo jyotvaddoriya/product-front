@@ -1,0 +1,71 @@
+
+.register{
+    position: absolute;
+    margin: 10px;
+    margin-left: 38%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(10px 10px 15px rgba(181, 212, 237, 0.516));
+    border: 2px solid skyblue;
+    box-shadow: 10px 5px 10px rgb(145, 212, 215);
+}
+
+.rh1{
+    color: rgba(151, 151, 227, 0.673);
+    margin: 10px;
+    margin-left: 30%;
+    text-shadow: 2px 2px 5px ;  
+   
+}
+
+.inputbox{
+    display: block;
+    height: 230px;
+    width : 300px;
+    text-align: center;
+   
+}
+.inputbox1{
+    margin: 15px;
+    margin-top: 8%;
+    height: 30px;
+    width:70%;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    text-align: center;
+}
+.inputbox2{
+    margin: 15px;
+    margin-top: 8%;
+    height: 30px;
+    width:70%;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    text-align: center;
+}
+.inputbox3{
+    margin: 15px;
+    margin-top: 8%;
+    height: 30px;
+    width:70%;
+     border: 1px solid skyblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 50px ;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10rem;
+    border: 1px solid skyblue;
+    cursor: pointer;
+    background-color: skyblue;  
+    
+}
+
+.btn:hover{
+    background-color: rgb(111, 193, 225);
+}
