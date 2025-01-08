@@ -1,11 +1,11 @@
 import React from "react";
 import './Footer.css'
 const Footer = () => {
-    return(
+    return (
         <>
-        <div className="footer">
-            <h3>e-com dashborad</h3>
-        </div>
+            <div className="footer">
+                <h3 className="fh3">CAR dashborad</h3>
+            </div>
         </>
     )
 }

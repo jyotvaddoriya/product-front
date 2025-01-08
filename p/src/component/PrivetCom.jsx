@@ -1,9 +1,15 @@
-import React from "react";
-import { Navigate,Outlet } from "react-router-dom";
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
-const PrivateRoute = () => {
-    const auth=localStorage.getItem('user');
-        return auth? <Outlet/> : <Navigate to ="/Signup"/>
-}
+const PrivetCom = () => {
 
-export default PrivateRoute;
+  const isauth = localStorage.getItem('user'); 
+
+  if (!isauth) {
+    return <h1>You need to login first!</h1>;
+  }
+
+  return <Outlet />; 
+};
+
+export default PrivetCom;

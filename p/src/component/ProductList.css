@@ -1,0 +1,31 @@
+.products{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    filter: drop-shadow(1px 1px 1px rgb(78, 78, 228));
+}
+.ch3{
+    color: white;
+    margin-top: 8rem;
+    font-size: 2rem;
+}
+
+.products ul li {
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 15px;
+    width: 150px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.libtn{
+    background: none;
+    color: beige;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+}
+
+
+

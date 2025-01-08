@@ -1,31 +1,37 @@
-.register {
+.product {
     position: absolute;
     margin: 10px;
     margin-left: 38%;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(10px 10px 15px rgba(95, 176, 243, 0.516));
+    filter: drop-shadow(10px 10px 15px skyblue);
     border: 2px solid skyblue;
-    box-shadow: 10px 5px 10px rgb(38, 198, 206);
-    height: 450px;
+    box-shadow: 10px 5px 10px skyblue;
+    height: 500px;
+
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    opacity: 0.9;
+
 }
 
-.rh1 {
-    color: rgba(38, 38, 216, 0.673);
+.ph1 {
+    color: skyblue;
     margin: 10px;
-    margin-left: 30%;
-    
+    margin-left: 20%;
+    text-shadow: 2px 2px 2px skyblue;
 }
 
-.inputbox {
+.input {
     display: block;
-    height: 320px;
+    height: 150px;
     width: 300px;
     text-align: center;
 }
 
-.inputbox1 {
+.i1 {
     margin: 15px;
     margin-top: 8%;
     height: 30px;
@@ -33,10 +39,10 @@
     border: 1px solid skyblue;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 8px rgba(21, 118, 198, 0.8);
+    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
 }
 
-.inputbox2 {
+.i2 {
     margin: 15px;
     margin-top: 8%;
     height: 30px;
@@ -44,10 +50,10 @@
     border: 1px solid skyblue;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 8px rgba(21, 118, 198, 0.8);
+    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
 }
 
-.inputbox3 {
+.i3 {
     margin: 15px;
     margin-top: 8%;
     height: 30px;
@@ -55,21 +61,33 @@
     border: 1px solid skyblue;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 8px rgba(21, 118, 198, 0.8);
+    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
 }
 
-.btn {
+.i4 {
+    margin: 15px;
+    margin-top: 8%;
+    height: 30px;
+    width: 70%;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
+}
+
+.addbtn {
     text-align: center;
     margin-top: 50px;
     height: 2rem;
     width: 10rem;
     border-radius: 10rem;
-    border: 1px solid skyblue;
+    border: 1px solid blue;
     cursor: pointer;
-    background-color: skyblue;
+    background-color: rgb(79, 199, 212);
+
 
 }
 
-.btn:hover {
-    background-color: rgb(111, 193, 225);
+.addbtn:hover {
+    background-color: rgb(82, 154, 243);
 }

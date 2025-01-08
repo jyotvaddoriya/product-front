@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-image: url('src/img/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}

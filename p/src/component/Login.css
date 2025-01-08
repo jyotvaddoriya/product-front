@@ -1,0 +1,67 @@
+.login {
+    position: absolute;
+    margin: 10px;
+    margin-left: 38%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(10px 10px 15px rgb(7, 235, 94));
+    border: 2px solid greenyellow;
+    box-shadow: 10px 5px 10px rgb(69, 196, 75);
+    height: 300px;
+    width: 300px;
+}
+
+
+.lh1 {
+    color: rgb(18, 236, 10);
+    margin: 10px;
+    margin-left: 30%;
+}
+
+.inputbox {
+    display: block;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.input1 {
+    margin: 15px;
+    margin-top: 8%;
+    height: 30px;
+    width: 70%;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(19, 248, 95, 0.8);
+}
+
+.input2 {
+    margin: 15px;
+    margin-top: 8%;
+    height: 30px;
+    width: 70%;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(19, 248, 95, 0.8);
+}
+
+
+.btn1 {
+    text-align: center;
+    margin-top: 50px;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10rem;
+    border: 1px solid rgb(176, 218, 114);
+    cursor: pointer;
+    background-color: rgb(155, 231, 42);
+
+}
+
+.btn1:hover {
+    background-color: rgb(14, 215, 34);
+}

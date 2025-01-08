@@ -1,39 +1,43 @@
 import Nav from './component/Nav';
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Footer from './component/Footer.jsx';
 import Signup from './component/Signup.jsx';
 import PrivetCom from './component/PrivetCom.jsx';
 import Login from './component/login.jsx';
+import AddProduct from './component/AddProduct.jsx';
+import ProductList from './component/ProductList.jsx';
+import Update from './component/UpdateCar.jsx';
 function App() {
-  
-
   return (
     <>
-    <div className="App">
-    <Router>
+   
+      <div className='bg'>
+        <div className="App">
+          <Router>
 
-      <Nav/>
-      <Routes>
-        
-        <Route element={<PrivetCom/>}>
-        <Route path="/home" element={<h1>home</h1>} />
-        <Route path="/add" element={<h1>addd</h1>} />
-        <Route path="/update" element={<h1>update</h1>} />
-        <Route path="/logout" element={<h1>logout</h1>} />
-        <Route path="/profile" element={<h1>profile</h1>} />
-        </Route>
-        <Route path="/Signup" element={<Signup/>} />
-        <Route path="/login" element={<Login/>} />
-      </Routes>
-      
-      <Footer/>
-    </Router>
-   
-   
+            <Nav />
+            <Routes>
+
+              <Route element={<PrivetCom />}>
+                <Route path="/home" element={<ProductList/>} />
+                <Route path="/add" element={<AddProduct />} />
+                <Route path="/update:id" element={<Update/>} />
+                <Route path="/logout" element={<h1>logout</h1>} />
+                <Route path="/profile" element={<h1>profile</h1>} />
+              </Route>
+              <Route path="/Signup" element={<Signup />} />
+              <Route path="/login" element={<Login />} />
+            </Routes> 
+
+            <Footer />
+          </Router>
+
+
+
+        </div>
+      </div>
      
-    </div>
-      
     </>
   );
 }
