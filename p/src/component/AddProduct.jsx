@@ -8,7 +8,7 @@ const AddProduct = () => {
     const [company, setCompany] = useState('');
 
     const addProduct = async() => {
-        console.warn(name, price, type, company)
+    console.warn(name, price, type, company)
     const userId = JSON.parse(localStorage.getItem('user'))._id;
     const result = await fetch('http://localhost:7000/add-product',{
         method:'post',
@@ -19,7 +19,8 @@ const AddProduct = () => {
     });
     result = await result.json();
     console.warn(result)
-    }
+   
+    };
 
     return (
 

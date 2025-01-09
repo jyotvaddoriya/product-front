@@ -1,4 +1,4 @@
-.update{
+.uproduct {
     position: absolute;
     margin: 10px;
     margin-left: 38%;
@@ -14,6 +14,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
     opacity: 0.9;
+
 }
 
 .uh1 {
@@ -23,15 +24,15 @@
     text-shadow: 2px 2px 2px skyblue;
 }
 
-.int {
+
+.inu {
     display: block;
     height: 150px;
     width: 300px;
     text-align: center;
 }
 
-
-.int1 {
+.iu1 {
     margin: 15px;
     margin-top: 8%;
     height: 30px;
@@ -42,7 +43,7 @@
     text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
 }
 
-.int2 {
+.iu2 {
     margin: 15px;
     margin-top: 8%;
     height: 30px;
@@ -53,18 +54,7 @@
     text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
 }
 
-.int3 {
-    margin: 15px;
-    margin-top: 8%;
-    height: 30px;
-    width: 70%;
-    border: 1px solid skyblue;  
-    border-radius: 10px;
-    text-align: center;
-    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
-}
-
-.int4 {
+.iu3 {
     margin: 15px;
     margin-top: 8%;
     height: 30px;
@@ -75,7 +65,16 @@
     text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
 }
 
-
+.iu4 {
+    margin: 15px;
+    margin-top: 8%;
+    height: 30px;
+    width: 70%;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
+}
 .updbtn {
     text-align: center;
     margin-top: 50px;

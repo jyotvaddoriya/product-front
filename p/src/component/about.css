@@ -1,0 +1,56 @@
+.content{
+    color: white;
+    
+}
+
+.para1{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 23% ;
+    margin-top: 2%;
+    height: 10rem;
+}
+.para1:hover{
+    text-shadow: 1px 1px 1px blue;
+}
+.h1{
+    padding: 10px;
+    font-size: 2rem;
+}
+.para2{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 23% ;
+    margin-top: 2%;
+    height: 10rem;
+}
+.h12{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.para2:hover{
+    text-shadow: 1px 1px 1px blue;
+}
+
+.para3{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 23% ;
+    margin-top: 2%;
+    height: 10rem;
+}
+.h3{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.para3:hover{
+    text-shadow: 1px 1px 1px blue;
+}

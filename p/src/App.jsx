@@ -7,7 +7,9 @@ import PrivetCom from './component/PrivetCom.jsx';
 import Login from './component/login.jsx';
 import AddProduct from './component/AddProduct.jsx';
 import ProductList from './component/ProductList.jsx';
-import Update from './component/UpdateCar.jsx';
+import UpdateProduct from './component/UpdateProduct.jsx';
+import Aboutus from './component/Aboutus.jsx';
+
 function App() {
   return (
     <>
@@ -22,7 +24,8 @@ function App() {
               <Route element={<PrivetCom />}>
                 <Route path="/home" element={<ProductList/>} />
                 <Route path="/add" element={<AddProduct />} />
-                <Route path="/update:id" element={<Update/>} />
+                <Route path="/update/:id" element={<UpdateProduct/>} />
+                <Route path="/abouts" element={<Aboutus/>} />
                 <Route path="/logout" element={<h1>logout</h1>} />
                 <Route path="/profile" element={<h1>profile</h1>} />
               </Route>
