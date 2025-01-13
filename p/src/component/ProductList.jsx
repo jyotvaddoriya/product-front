@@ -10,50 +10,49 @@ const ProductList = () => {
     }, []);
 
     const getProducts = async () => {
-        let result = await fetch('http://localhost:7000/products',{
-            headers : {
-            authorization : `jj ${JSON.parse(localStorage.getItem('token'))}`
+        let result = await fetch('http://localhost:7000/products', {
+            headers: {
+                authorization: `jj ${JSON.parse(localStorage.getItem('token'))}`
             }
         });
         result = await result.json();
         setProducts(result);
-    };
-
-   const deleteProduct = async(id) => {
-    let result = await fetch(`http://localhost:7000/product/${id}`,{
-        method:"delete",
-        headers : {
-            authorization : `jj ${JSON.parse(localStorage.getItem('token'))}`
-        }
-    });
-    result =await result.json();
-    if(result){
-        getProducts();  
-    }
-   };
-   const searchhandel = async(event) => {
-       let key = event.target.value;
-       if(key){
-        let result = await fetch(`http://localhost:7000/search/${key}`,{
-            headers : {
-                authorization : `jj ${JSON.parse(localStorage.getItem('token'))}`
+    };    
+    const deleteProduct = async (id) => {
+        let result = await fetch(`http://localhost:7000/product/${id}`, {
+            method: "delete",
+            headers: {
+                authorization: `jj ${JSON.parse(localStorage.getItem('token'))}`
             }
         });
         result = await result.json();
-        if(result && result.length > 0){
-         setProducts(result);
-        }else{
-            setProducts([]);
+        if (result) {
+            getProducts();
         }
-       }else{
-        getProducts();
-       }
+    };
+    const searchhandel = async (event) => {
+        let key = event.target.value;
+        if (key) {
+            let result = await fetch(`http://localhost:7000/search/${key}`, {
+                headers: {
+                    authorization: `jj ${JSON.parse(localStorage.getItem('token'))}`
+                }
+            });
+            result = await result.json();
+            if (result && result.length > 0) {
+                setProducts(result);
+            } else {
+                setProducts([]);
+            }
+        } else {
+            getProducts();
+        }
     };
 
     return (
         <div className="products">
             <h3 className="ch3">CAR List</h3>
-            <input type="text"  onChange={searchhandel} placeholder="Search" className="search"/>
+            <input type="text" onChange={searchhandel} placeholder="Search" className="search" />
             <ul className="u">
                 <li>S. No</li>
                 <li>Name</li>
@@ -69,8 +68,8 @@ const ProductList = () => {
                         <li>{item.name}</li>
                         <li>{item.price}</li>
                         <li>{item.type}</li>
-                        <li><button className="libtn"onClick={()=> deleteProduct(item._id)}>Delete</button></li>
-                        <li><Link to={"/update/"+item._id}>Update</Link></li>
+                        <li><button className="libtn" onClick={() => deleteProduct(item._id)}>Delete</button></li>
+                        <li><Link to={"/update/" + item._id}>Update</Link></li>
                     </ul>
                 ))
             }

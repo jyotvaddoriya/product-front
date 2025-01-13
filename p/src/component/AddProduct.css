@@ -5,23 +5,20 @@
     margin-top: 50px;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(10px 10px 15px skyblue);
+
     border: 2px solid skyblue;
-    box-shadow: 10px 5px 10px skyblue;
+   
     height: 500px;
-
-
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
     opacity: 0.9;
-
 }
 
 .ph1 {
     color: skyblue;
     margin: 10px;
     margin-left: 20%;
-    text-shadow: 2px 2px 2px skyblue;
+        
 }
 
 .input {
@@ -39,7 +36,7 @@
     border: 1px solid skyblue;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
+    
 }
 
 .i2 {
@@ -50,7 +47,7 @@
     border: 1px solid skyblue;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
+
 }
 
 .i3 {
@@ -61,7 +58,7 @@
     border: 1px solid skyblue;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
+   
 }
 
 .i4 {
@@ -72,7 +69,7 @@
     border: 1px solid skyblue;
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 8px rgba(76, 196, 223, 0.8);
+    
 }
 
 .addbtn {
@@ -84,10 +81,25 @@
     border: 1px solid blue;
     cursor: pointer;
     background-color: rgb(79, 199, 212);
-
-
 }
 
 .addbtn:hover {
     background-color: rgb(82, 154, 243);
+    filter: drop-shadow(10px 10px 15px skyblue);
+}
+
+.ph1:hover{
+    filter: drop-shadow(10px 10px 15px skyblue);
+}
+.i1:hover{
+    filter: drop-shadow(10px 10px 15px skyblue);
+}
+.i2:hover{
+    filter: drop-shadow(10px 10px 15px skyblue);
+}
+.i3:hover{
+    filter: drop-shadow(10px 10px 15px skyblue);
+}
+.i4:hover{
+    filter: drop-shadow(10px 10px 15px skyblue);
 }

@@ -3,11 +3,13 @@
     text-align: center;
     text-decoration: none;
     margin-top: 50px;
-    filter: drop-shadow(1px 1px 1px rgb(78, 78, 228));
+   
 }
 .ch3{
     color: white;   
     font-size: 2rem;
+    width: 10%;
+    margin-left: 43rem;
 }
 
 .products ul li {
@@ -38,4 +40,21 @@
 }
 
 
+.ch3:hover{
+    filter: drop-shadow(1px 1px 1px rgb(192, 232, 33));
+    color:  rgb(180, 214, 87);
+}
 
+.products ul li:hover{
+    filter: drop-shadow(1px 1px 1px rgb(192, 232, 33));
+    color:  rgb(180, 214, 87);
+}
+
+.libtn:hover{
+    filter: drop-shadow(1px 1px 1px rgb(192, 232, 33));
+    color:  rgb(180, 214, 87);
+}
+.search:hover{
+    filter: drop-shadow(1px 1px 1px rgb(192, 232, 33));
+    color:  rgb(180, 214, 87);
+}
